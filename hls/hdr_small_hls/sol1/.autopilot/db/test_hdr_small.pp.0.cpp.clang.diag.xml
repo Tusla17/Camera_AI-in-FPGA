@@ -1,0 +1,23 @@
+<dict>
+  <key>main-file</key>
+  <string>D:/CodeWSL/Camera_AI/hls/hdr_small_hls/sol1/.autopilot/db/test_hdr_small.pp.0.cpp</string>
+  <key>diagnostics</key>
+  <array>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>D:/CodeWSL/Camera_AI/hls/run_hdr_small.tcl</string>
+      <key>line</key>
+      <integer>7</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=hdr_top_XLX_SEP_ PragmaOptions=name=hdr_top_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>6999</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+  </array>
+</dict>

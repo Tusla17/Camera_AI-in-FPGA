@@ -1,0 +1,255 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'bnn_top_Pipeline_VITIS_LOOP_96_14_VITIS_LOOP_97_15'" level="0">
+<item name = "Date">Mon Aug 24 01:29:17 2026
+</item>
+<item name = "Version">2025.2 (Build 6295257 on Nov 12 2025)</item>
+<item name = "Project">bnn_hls</item>
+<item name = "Solution">sol1 (Vivado IP Flow Target)</item>
+<item name = "Product family">zynquplus</item>
+<item name = "Target device">xczu7ev-ffvc1156-2-e</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00 ns, 6.003 ns, 2.70 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">76, 76, 0.760 us, 0.760 us, 0, 0, loop pipeline stp</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- VITIS_LOOP_96_14_VITIS_LOOP_97_15">74, 74, 12, 1, 1, 64, yes</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="DSP">-, -, -, -, -</column>
+<column name="Expression">-, -, 0, 401, -</column>
+<column name="FIFO">-, -, -, -, -</column>
+<column name="Instance">-, 0, 98, 401, -</column>
+<column name="Memory">-, -, -, -, -</column>
+<column name="Multiplexer">-, -, 0, 212, -</column>
+<column name="Register">-, -, 448, 160, -</column>
+<specialColumn name="Available">624, 1728, 460800, 230400, 96</specialColumn>
+<specialColumn name="Utilization (%)">0, 0, ~0, ~0, 0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="mul_8ns_10ns_17_1_1_U106">mul_8ns_10ns_17_1_1, 0, 0, 0, 62, 0</column>
+<column name="mul_8ns_10ns_17_1_1_U107">mul_8ns_10ns_17_1_1, 0, 0, 0, 62, 0</column>
+<column name="mul_8ns_10ns_17_1_1_U110">mul_8ns_10ns_17_1_1, 0, 0, 0, 62, 0</column>
+<column name="mul_8ns_10ns_17_1_1_U111">mul_8ns_10ns_17_1_1, 0, 0, 0, 62, 0</column>
+<column name="sparsemux_11_3_32_1_1_U108">sparsemux_11_3_32_1_1, 0, 0, 0, 26, 0</column>
+<column name="sparsemux_11_3_32_1_1_U109">sparsemux_11_3_32_1_1, 0, 0, 0, 26, 0</column>
+<column name="sparsemux_11_3_32_1_1_U112">sparsemux_11_3_32_1_1, 0, 0, 0, 26, 0</column>
+<column name="sparsemux_11_3_32_1_1_U113">sparsemux_11_3_32_1_1, 0, 0, 0, 26, 0</column>
+<column name="urem_5ns_4ns_3_9_1_U105">urem_5ns_4ns_3_9_1, 0, 0, 98, 49, 0</column>
+</table>
+</item>
+<item name = "DSP"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="add_ln104_fu_844_p2">+, 0, 0, 16, 9, 9</column>
+<column name="add_ln96_1_fu_497_p2">+, 0, 0, 12, 4, 1</column>
+<column name="add_ln96_fu_471_p2">+, 0, 0, 14, 7, 1</column>
+<column name="add_ln97_fu_569_p2">+, 0, 0, 12, 4, 1</column>
+<column name="add_ln99_1_fu_621_p2">+, 0, 0, 19, 8, 8</column>
+<column name="add_ln99_fu_539_p2">+, 0, 0, 12, 5, 5</column>
+<column name="sub_ln99_fu_615_p2">-, 0, 0, 19, 8, 8</column>
+<column name="icmp_ln103_1_fu_915_p2">icmp, 0, 0, 39, 32, 32</column>
+<column name="icmp_ln103_2_fu_927_p2">icmp, 0, 0, 39, 32, 32</column>
+<column name="icmp_ln103_fu_827_p2">icmp, 0, 0, 39, 32, 32</column>
+<column name="icmp_ln104_fu_949_p2">icmp, 0, 0, 47, 40, 40</column>
+<column name="icmp_ln96_fu_465_p2">icmp, 0, 0, 15, 7, 8</column>
+<column name="icmp_ln97_fu_483_p2">icmp, 0, 0, 12, 4, 5</column>
+<column name="m_1_fu_833_p3">select, 0, 0, 32, 1, 32</column>
+<column name="m_3_fu_920_p3">select, 0, 0, 32, 1, 32</column>
+<column name="select_ln103_fu_933_p3">select, 0, 0, 32, 1, 32</column>
+<column name="select_ln96_1_fu_503_p3">select, 0, 0, 4, 1, 4</column>
+<column name="select_ln96_fu_489_p3">select, 0, 0, 4, 1, 1</column>
+<column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="ap_done_int">9, 2, 1, 2</column>
+<column name="ap_enable_reg_pp0_iter1">9, 2, 1, 2</column>
+<column name="ap_sig_allocacmp_indvar_flatten36_load">9, 2, 7, 14</column>
+<column name="ap_sig_allocacmp_ph_load">9, 2, 4, 8</column>
+<column name="ap_sig_allocacmp_pw_load">9, 2, 4, 8</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_1_address0_local">14, 3, 8, 24</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_1_address1_local">14, 3, 8, 24</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_2_address0_local">14, 3, 8, 24</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_2_address1_local">14, 3, 8, 24</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_3_address0_local">14, 3, 8, 24</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_3_address1_local">14, 3, 8, 24</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_4_address0_local">14, 3, 8, 24</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_4_address1_local">14, 3, 8, 24</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_address0_local">14, 3, 8, 24</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_address1_local">14, 3, 8, 24</column>
+<column name="indvar_flatten36_fu_118">9, 2, 7, 14</column>
+<column name="ph_fu_114">9, 2, 4, 8</column>
+<column name="pw_fu_110">9, 2, 4, 8</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="add_ln99_reg_1018">5, 0, 5, 0</column>
+<column name="ap_CS_fsm">1, 0, 1, 0</column>
+<column name="ap_done_reg">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter1">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter10">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter11">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter2">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter3">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter4">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter5">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter6">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter7">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter8">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter9">1, 0, 1, 0</column>
+<column name="ap_loop_exit_ready_pp0_iter10_reg">1, 0, 1, 0</column>
+<column name="ap_loop_exit_ready_pp0_iter1_reg">1, 0, 1, 0</column>
+<column name="ap_loop_exit_ready_pp0_iter2_reg">1, 0, 1, 0</column>
+<column name="ap_loop_exit_ready_pp0_iter3_reg">1, 0, 1, 0</column>
+<column name="ap_loop_exit_ready_pp0_iter4_reg">1, 0, 1, 0</column>
+<column name="ap_loop_exit_ready_pp0_iter5_reg">1, 0, 1, 0</column>
+<column name="ap_loop_exit_ready_pp0_iter6_reg">1, 0, 1, 0</column>
+<column name="ap_loop_exit_ready_pp0_iter7_reg">1, 0, 1, 0</column>
+<column name="ap_loop_exit_ready_pp0_iter8_reg">1, 0, 1, 0</column>
+<column name="ap_loop_exit_ready_pp0_iter9_reg">1, 0, 1, 0</column>
+<column name="indvar_flatten36_fu_118">7, 0, 7, 0</column>
+<column name="m_1_reg_1132">32, 0, 32, 0</column>
+<column name="ph_fu_114">4, 0, 4, 0</column>
+<column name="pw_fu_110">4, 0, 4, 0</column>
+<column name="select_ln96_1_reg_997">4, 0, 4, 0</column>
+<column name="sext_ln104_cast_reg_988">40, 0, 40, 0</column>
+<column name="trunc_ln97_reg_1011">3, 0, 3, 0</column>
+<column name="trunc_ln99_1_reg_1024">3, 0, 3, 0</column>
+<column name="trunc_ln99_reg_1003">3, 0, 3, 0</column>
+<column name="add_ln99_reg_1018">64, 32, 5, 0</column>
+<column name="select_ln96_1_reg_997">64, 32, 4, 0</column>
+<column name="trunc_ln97_reg_1011">64, 32, 3, 0</column>
+<column name="trunc_ln99_1_reg_1024">64, 32, 3, 0</column>
+<column name="trunc_ln99_reg_1003">64, 32, 3, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, bnn_top_Pipeline_VITIS_LOOP_96_14_VITIS_LOOP_97_15, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, bnn_top_Pipeline_VITIS_LOOP_96_14_VITIS_LOOP_97_15, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, bnn_top_Pipeline_VITIS_LOOP_96_14_VITIS_LOOP_97_15, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, bnn_top_Pipeline_VITIS_LOOP_96_14_VITIS_LOOP_97_15, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, bnn_top_Pipeline_VITIS_LOOP_96_14_VITIS_LOOP_97_15, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, bnn_top_Pipeline_VITIS_LOOP_96_14_VITIS_LOOP_97_15, return value</column>
+<column name="shl_ln2">in, 9, ap_none, shl_ln2, scalar</column>
+<column name="sext_ln104">in, 32, ap_none, sext_ln104, scalar</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_12_address0">out, 9, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_12, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_12_ce0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_12, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_12_we0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_12, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_12_d0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_12, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_4_address0">out, 8, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_4, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_4_ce0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_4, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_4_q0">in, 32, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_4, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_4_address1">out, 8, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_4, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_4_ce1">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_4, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_4_q1">in, 32, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_4, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_3_address0">out, 8, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_3, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_3_ce0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_3, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_3_q0">in, 32, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_3, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_3_address1">out, 8, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_3, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_3_ce1">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_3, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_3_q1">in, 32, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_3, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_2_address0">out, 8, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_2, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_2_ce0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_2, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_2_q0">in, 32, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_2, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_2_address1">out, 8, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_2, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_2_ce1">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_2, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_2_q1">in, 32, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_2, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_1_address0">out, 8, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_1, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_1_ce0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_1, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_1_q0">in, 32, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_1, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_1_address1">out, 8, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_1, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_1_ce1">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_1, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_1_q1">in, 32, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_1, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_address0">out, 8, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_ce0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_q0">in, 32, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_address1">out, 8, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_ce1">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_q1">in, 32, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_6_address0">out, 9, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_6, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_6_ce0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_6, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_6_we0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_6, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_6_d0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_6, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_5_address0">out, 9, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_5, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_5_ce0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_5, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_5_we0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_5, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_5_d0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_5, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_11_address0">out, 9, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_11, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_11_ce0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_11, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_11_we0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_11, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_11_d0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_11, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_10_address0">out, 9, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_10, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_10_ce0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_10, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_10_we0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_10, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_10_d0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_10, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_9_address0">out, 9, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_9, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_9_ce0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_9, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_9_we0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_9, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_9_d0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_9, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_8_address0">out, 9, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_8, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_8_ce0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_8, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_8_we0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_8, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_8_d0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_8, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_7_address0">out, 9, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_7, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_7_ce0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_7, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_7_we0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_7, array</column>
+<column name="bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_7_d0">out, 1, ap_memory, bnn_top_int_const_unsigned_int_const_int_const_unsigned_int_const_int_co_7, array</column>
+</table>
+</item>
+</section>
+</profile>

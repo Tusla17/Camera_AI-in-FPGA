@@ -1,0 +1,24 @@
+[
+  {
+    "csim": false,
+    "functionLabel": "",
+    "functionName": "mini_top",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "mini_top"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "D:/CodeWSL/Camera_AI/hls/run_mini.tcl",
+    "sourceLine": 9,
+    "success": true
+  }
+]

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BindInfo>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op add" ID="" IMPL="fabric" LATENCY="0" OPTYPE="add" PRAGMA="" RTLNAME="s" SOURCE="test_hdr_small.cpp:11" VARIABLE="add_ln11" MODULE="hdr_top" LOOP="" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0" USAGE="" STORAGESUBTYPE="" STORAGESIZE=""/>
+	<BindNode BINDTYPE="storage" DISPLAY="bind_storage rom_1p" ID="" IMPL="auto" LATENCY="1" OPTYPE="rom_1p" PRAGMA="" RTLNAME="W1_U" SOURCE="" VARIABLE="W1" MODULE="hdr_top" LOOP="" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0" USAGE="" STORAGESUBTYPE="" STORAGESIZE="32 9 1"/>
+	<BindNode BINDTYPE="storage" DISPLAY="bind_storage rom_1p" ID="" IMPL="auto" LATENCY="1" OPTYPE="rom_1p" PRAGMA="" RTLNAME="TAU1_U" SOURCE="" VARIABLE="TAU1" MODULE="hdr_top" LOOP="" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0" USAGE="" STORAGESUBTYPE="" STORAGESIZE="18 32 1"/>
+</BindInfo>

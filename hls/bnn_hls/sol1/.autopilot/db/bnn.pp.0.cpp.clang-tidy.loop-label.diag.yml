@@ -1,0 +1,316 @@
+---
+MainSourceFile:  'D:/CodeWSL/Camera_AI/hls/bnn_hls/sol1/.autopilot/db/bnn.pp.0.cpp'
+Diagnostics:
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_49_1:  '
+      FilePath:        bnn.cpp
+      FileOffset:      49
+      Replacements:
+        - FilePath:        'D:\CodeWSL\Camera_AI\hls\bnn_hls\sol1\.autopilot\db\bnn.pp.0.cpp'
+          Offset:          11000
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_49_1: '
+    Level:           Remark
+    BuildDirectory:  'D:\CodeWSL\Camera_AI\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_50_2:  '
+      FilePath:        bnn.cpp
+      FileOffset:      50
+      Replacements:
+        - FilePath:        'D:\CodeWSL\Camera_AI\hls\bnn_hls\sol1\.autopilot\db\bnn.pp.0.cpp'
+          Offset:          11042
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_50_2: '
+    Level:           Remark
+    BuildDirectory:  'D:\CodeWSL\Camera_AI\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_51_3:  '
+      FilePath:        bnn.cpp
+      FileOffset:      51
+      Replacements:
+        - FilePath:        'D:\CodeWSL\Camera_AI\hls\bnn_hls\sol1\.autopilot\db\bnn.pp.0.cpp'
+          Offset:          11086
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_51_3: '
+    Level:           Remark
+    BuildDirectory:  'D:\CodeWSL\Camera_AI\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_54_4:  '
+      FilePath:        bnn.cpp
+      FileOffset:      54
+      Replacements:
+        - FilePath:        'D:\CodeWSL\Camera_AI\hls\bnn_hls\sol1\.autopilot\db\bnn.pp.0.cpp'
+          Offset:          11191
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_54_4: '
+    Level:           Remark
+    BuildDirectory:  'D:\CodeWSL\Camera_AI\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_55_5:  '
+      FilePath:        bnn.cpp
+      FileOffset:      55
+      Replacements:
+        - FilePath:        'D:\CodeWSL\Camera_AI\hls\bnn_hls\sol1\.autopilot\db\bnn.pp.0.cpp'
+          Offset:          11242
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_55_5: '
+    Level:           Remark
+    BuildDirectory:  'D:\CodeWSL\Camera_AI\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_65_6:  '
+      FilePath:        bnn.cpp
+      FileOffset:      65
+      Replacements:
+        - FilePath:        'D:\CodeWSL\Camera_AI\hls\bnn_hls\sol1\.autopilot\db\bnn.pp.0.cpp'
+          Offset:          11743
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_65_6: '
+    Level:           Remark
+    BuildDirectory:  'D:\CodeWSL\Camera_AI\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_66_7:  '
+      FilePath:        bnn.cpp
+      FileOffset:      66
+      Replacements:
+        - FilePath:        'D:\CodeWSL\Camera_AI\hls\bnn_hls\sol1\.autopilot\db\bnn.pp.0.cpp'
+          Offset:          11787
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_66_7: '
+    Level:           Remark
+    BuildDirectory:  'D:\CodeWSL\Camera_AI\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_78_8:  '
+      FilePath:        bnn.cpp
+      FileOffset:      78
+      Replacements:
+        - FilePath:        'D:\CodeWSL\Camera_AI\hls\bnn_hls\sol1\.autopilot\db\bnn.pp.0.cpp'
+          Offset:          12229
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_78_8: '
+    Level:           Remark
+    BuildDirectory:  'D:\CodeWSL\Camera_AI\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_79_9:  '
+      FilePath:        bnn.cpp
+      FileOffset:      79
+      Replacements:
+        - FilePath:        'D:\CodeWSL\Camera_AI\hls\bnn_hls\sol1\.autopilot\db\bnn.pp.0.cpp'
+          Offset:          12271
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_79_9: '
+    Level:           Remark
+    BuildDirectory:  'D:\CodeWSL\Camera_AI\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_80_10:  '
+      FilePath:        bnn.cpp
+      FileOffset:      80
+      Replacements:
+        - FilePath:        'D:\CodeWSL\Camera_AI\hls\bnn_hls\sol1\.autopilot\db\bnn.pp.0.cpp'
+          Offset:          12315
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_80_10: '
+    Level:           Remark
+    BuildDirectory:  'D:\CodeWSL\Camera_AI\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_82_11:  '
+      FilePath:        bnn.cpp
+      FileOffset:      82
+      Replacements:
+        - FilePath:        'D:\CodeWSL\Camera_AI\hls\bnn_hls\sol1\.autopilot\db\bnn.pp.0.cpp'
+          Offset:          12394
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_82_11: '
+    Level:           Remark
+    BuildDirectory:  'D:\CodeWSL\Camera_AI\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_84_12:  '
+      FilePath:        bnn.cpp
+      FileOffset:      84
+      Replacements:
+        - FilePath:        'D:\CodeWSL\Camera_AI\hls\bnn_hls\sol1\.autopilot\db\bnn.pp.0.cpp'
+          Offset:          12474
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_84_12: '
+    Level:           Remark
+    BuildDirectory:  'D:\CodeWSL\Camera_AI\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_85_13:  '
+      FilePath:        bnn.cpp
+      FileOffset:      85
+      Replacements:
+        - FilePath:        'D:\CodeWSL\Camera_AI\hls\bnn_hls\sol1\.autopilot\db\bnn.pp.0.cpp'
+          Offset:          12529
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_85_13: '
+    Level:           Remark
+    BuildDirectory:  'D:\CodeWSL\Camera_AI\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_96_14:  '
+      FilePath:        bnn.cpp
+      FileOffset:      96
+      Replacements:
+        - FilePath:        'D:\CodeWSL\Camera_AI\hls\bnn_hls\sol1\.autopilot\db\bnn.pp.0.cpp'
+          Offset:          13105
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_96_14: '
+    Level:           Remark
+    BuildDirectory:  'D:\CodeWSL\Camera_AI\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_97_15:  '
+      FilePath:        bnn.cpp
+      FileOffset:      97
+      Replacements:
+        - FilePath:        'D:\CodeWSL\Camera_AI\hls\bnn_hls\sol1\.autopilot\db\bnn.pp.0.cpp'
+          Offset:          13148
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_97_15: '
+    Level:           Remark
+    BuildDirectory:  'D:\CodeWSL\Camera_AI\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_109_16:  '
+      FilePath:        bnn.cpp
+      FileOffset:      109
+      Replacements:
+        - FilePath:        'D:\CodeWSL\Camera_AI\hls\bnn_hls\sol1\.autopilot\db\bnn.pp.0.cpp'
+          Offset:          13604
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_109_16: '
+    Level:           Remark
+    BuildDirectory:  'D:\CodeWSL\Camera_AI\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_110_17:  '
+      FilePath:        bnn.cpp
+      FileOffset:      110
+      Replacements:
+        - FilePath:        'D:\CodeWSL\Camera_AI\hls\bnn_hls\sol1\.autopilot\db\bnn.pp.0.cpp'
+          Offset:          13646
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_110_17: '
+    Level:           Remark
+    BuildDirectory:  'D:\CodeWSL\Camera_AI\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_111_18:  '
+      FilePath:        bnn.cpp
+      FileOffset:      111
+      Replacements:
+        - FilePath:        'D:\CodeWSL\Camera_AI\hls\bnn_hls\sol1\.autopilot\db\bnn.pp.0.cpp'
+          Offset:          13689
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_111_18: '
+    Level:           Remark
+    BuildDirectory:  'D:\CodeWSL\Camera_AI\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_113_19:  '
+      FilePath:        bnn.cpp
+      FileOffset:      113
+      Replacements:
+        - FilePath:        'D:\CodeWSL\Camera_AI\hls\bnn_hls\sol1\.autopilot\db\bnn.pp.0.cpp'
+          Offset:          13767
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_113_19: '
+    Level:           Remark
+    BuildDirectory:  'D:\CodeWSL\Camera_AI\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_115_20:  '
+      FilePath:        bnn.cpp
+      FileOffset:      115
+      Replacements:
+        - FilePath:        'D:\CodeWSL\Camera_AI\hls\bnn_hls\sol1\.autopilot\db\bnn.pp.0.cpp'
+          Offset:          13847
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_115_20: '
+    Level:           Remark
+    BuildDirectory:  'D:\CodeWSL\Camera_AI\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_116_21:  '
+      FilePath:        bnn.cpp
+      FileOffset:      116
+      Replacements:
+        - FilePath:        'D:\CodeWSL\Camera_AI\hls\bnn_hls\sol1\.autopilot\db\bnn.pp.0.cpp'
+          Offset:          13902
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_116_21: '
+    Level:           Remark
+    BuildDirectory:  'D:\CodeWSL\Camera_AI\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_127_22:  '
+      FilePath:        bnn.cpp
+      FileOffset:      127
+      Replacements:
+        - FilePath:        'D:\CodeWSL\Camera_AI\hls\bnn_hls\sol1\.autopilot\db\bnn.pp.0.cpp'
+          Offset:          14472
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_127_22: '
+    Level:           Remark
+    BuildDirectory:  'D:\CodeWSL\Camera_AI\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_128_23:  '
+      FilePath:        bnn.cpp
+      FileOffset:      128
+      Replacements:
+        - FilePath:        'D:\CodeWSL\Camera_AI\hls\bnn_hls\sol1\.autopilot\db\bnn.pp.0.cpp'
+          Offset:          14515
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_128_23: '
+    Level:           Remark
+    BuildDirectory:  'D:\CodeWSL\Camera_AI\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_140_24:  '
+      FilePath:        bnn.cpp
+      FileOffset:      140
+      Replacements:
+        - FilePath:        'D:\CodeWSL\Camera_AI\hls\bnn_hls\sol1\.autopilot\db\bnn.pp.0.cpp'
+          Offset:          14967
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_140_24: '
+    Level:           Remark
+    BuildDirectory:  'D:\CodeWSL\Camera_AI\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_142_25:  '
+      FilePath:        bnn.cpp
+      FileOffset:      142
+      Replacements:
+        - FilePath:        'D:\CodeWSL\Camera_AI\hls\bnn_hls\sol1\.autopilot\db\bnn.pp.0.cpp'
+          Offset:          15028
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_142_25: '
+    Level:           Remark
+    BuildDirectory:  'D:\CodeWSL\Camera_AI\hls'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_153_26:  '
+      FilePath:        bnn.cpp
+      FileOffset:      153
+      Replacements:
+        - FilePath:        'D:\CodeWSL\Camera_AI\hls\bnn_hls\sol1\.autopilot\db\bnn.pp.0.cpp'
+          Offset:          15359
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_153_26: '
+    Level:           Remark
+    BuildDirectory:  'D:\CodeWSL\Camera_AI\hls'
+...

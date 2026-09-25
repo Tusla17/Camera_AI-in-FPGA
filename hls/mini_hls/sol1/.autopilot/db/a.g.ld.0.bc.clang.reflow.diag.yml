@@ -1,0 +1,42 @@
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+Function:        apatb_mini_top_ir
+Args:            
+  - Callee:          'mini_top(int const*, int&)'
+    DebugLoc:        { File: mini.cpp, Line: 3, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          apatb_mini_top_ir
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !HLSReportInfo
+Pass:            reflow-auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'Pipelining loop< '
+  - LoopName:        VITIS_LOOP_5_1
+  - String:          '> at '
+  - LoopLoc:         'mini.cpp:5:21'
+  - String:          ' due to pipeline_loops threshold'
+...
+--- !Passed
+Pass:            reflow-auto-loop-pipeline
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: mini.cpp, Line: 5, Column: 21 }
+Function:        _Z8mini_topPKiRi
+Args:            
+  - PragmaType:      pipeline
+  - String:          ' '
+  - PragmaOptions:   ' '
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  mini_top
+  - String:          ' '
+  - PragmaInferReason: config_compile -pipeline_loops 64
+  - LoopName:        VITIS_LOOP_5_1
+  - String:          ' '
+  - LoopLoc:         'mini.cpp:5:21'
+    DebugLoc:        { File: mini.cpp, Line: 5, Column: 21 }
+  - String:          ' '
+...

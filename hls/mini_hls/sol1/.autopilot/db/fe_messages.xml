@@ -1,0 +1,8 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="D:/CodeWSL/Camera_AI/hls/run_mini.tcl:9:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="mini_top" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=mini_top" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="mini.cpp:5:21" msg_body="pipeline   1 mini_top config_compile -pipeline_loops 64VITIS_LOOP_5_1 mini.cpp:5:21">
+        <args LoopLoc="mini.cpp:5:21" LoopLoc-DebugLoc="File mini.cpp Line 5 Column 21" LoopName="VITIS_LOOP_5_1" PragmaFunction="mini_top" PragmaInferReason="config_compile -pipeline_loops 64" PragmaIsAuto="1" PragmaType="pipeline"/>
+    </msg>
+</xilinx:hls_fe_msgs>

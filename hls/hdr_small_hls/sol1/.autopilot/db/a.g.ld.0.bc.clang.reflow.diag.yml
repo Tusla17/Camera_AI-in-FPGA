@@ -1,0 +1,11 @@
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+Function:        apatb_hdr_top_ir
+Args:            
+  - Callee:          'hdr_top(int, int&)'
+    DebugLoc:        { File: test_hdr_small.cpp, Line: 10, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          apatb_hdr_top_ir
+  - String:          ' because it should never be inlined (cost=never)'
+...

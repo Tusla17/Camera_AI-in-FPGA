@@ -1,0 +1,8 @@
+set SynModuleInfo {
+  {SRCNAME hdr_top MODELNAME hdr_top RTLNAME hdr_top IS_TOP 1
+    SUBMODULES {
+      {MODELNAME hdr_top_W1_ROM_AUTO_1R RTLNAME hdr_top_W1_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME hdr_top_TAU1_ROM_AUTO_1R RTLNAME hdr_top_TAU1_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+    }
+  }
+}

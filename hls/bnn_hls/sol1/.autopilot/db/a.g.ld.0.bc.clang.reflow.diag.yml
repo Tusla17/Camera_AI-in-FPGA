@@ -1,0 +1,425 @@
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: bnn.cpp, Line: 115, Column: 40 }
+Function:        _Z7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_115_20
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: bnn.cpp, Line: 116, Column: 44 }
+Function:        _Z7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_116_21
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: bnn.cpp, Line: 84, Column: 39 }
+Function:        _Z7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_84_12
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: bnn.cpp, Line: 85, Column: 43 }
+Function:        _Z7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_85_13
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: bnn.cpp, Line: 54, Column: 34 }
+Function:        _Z7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_54_4
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: bnn.cpp, Line: 55, Column: 38 }
+Function:        _Z7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_55_5
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: bnn.cpp, Line: 32, Column: 0 }
+Function:        _Z7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_115_20
+  - String:          ''' ('
+  - LoopLoc:         'bnn.cpp:115:40'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          bnn_top
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: bnn.cpp, Line: 32, Column: 0 }
+Function:        _Z7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_116_21
+  - String:          ''' ('
+  - LoopLoc:         'bnn.cpp:116:44'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          bnn_top
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: bnn.cpp, Line: 32, Column: 0 }
+Function:        _Z7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_116_21
+  - String:          ''' ('
+  - LoopLoc:         'bnn.cpp:116:44'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          bnn_top
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: bnn.cpp, Line: 32, Column: 0 }
+Function:        _Z7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_116_21
+  - String:          ''' ('
+  - LoopLoc:         'bnn.cpp:116:44'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          bnn_top
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: bnn.cpp, Line: 32, Column: 0 }
+Function:        _Z7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_84_12
+  - String:          ''' ('
+  - LoopLoc:         'bnn.cpp:84:39'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          bnn_top
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: bnn.cpp, Line: 32, Column: 0 }
+Function:        _Z7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_85_13
+  - String:          ''' ('
+  - LoopLoc:         'bnn.cpp:85:43'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          bnn_top
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: bnn.cpp, Line: 32, Column: 0 }
+Function:        _Z7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_85_13
+  - String:          ''' ('
+  - LoopLoc:         'bnn.cpp:85:43'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          bnn_top
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: bnn.cpp, Line: 32, Column: 0 }
+Function:        _Z7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_85_13
+  - String:          ''' ('
+  - LoopLoc:         'bnn.cpp:85:43'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          bnn_top
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: bnn.cpp, Line: 32, Column: 0 }
+Function:        _Z7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_54_4
+  - String:          ''' ('
+  - LoopLoc:         'bnn.cpp:54:34'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          bnn_top
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: bnn.cpp, Line: 32, Column: 0 }
+Function:        _Z7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_55_5
+  - String:          ''' ('
+  - LoopLoc:         'bnn.cpp:55:38'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          bnn_top
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: bnn.cpp, Line: 32, Column: 0 }
+Function:        _Z7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_55_5
+  - String:          ''' ('
+  - LoopLoc:         'bnn.cpp:55:38'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          bnn_top
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: bnn.cpp, Line: 32, Column: 0 }
+Function:        _Z7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_55_5
+  - String:          ''' ('
+  - LoopLoc:         'bnn.cpp:55:38'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          bnn_top
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+Function:        apatb_bnn_top_ir
+Args:            
+  - Callee:          'bnn_top(int const*, unsigned int const*, int const*, unsigned int const*, int const*, unsigned int const*, int const*, unsigned int const*, int const*, int const*, int const*, int&, int&, int&)'
+    DebugLoc:        { File: bnn.cpp, Line: 32, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          apatb_bnn_top_ir
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: bnn.cpp, Line: 35, Column: 0 }
+Function:        _Z7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          _ZZ7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_E2l2
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Cyclic
+  - String:          ' partitioning'
+  - String:          ' with factor '
+  - Factor:          '8'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: bnn.cpp, Line: 34, Column: 0 }
+Function:        _Z7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          _ZZ7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_E2l1
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Cyclic
+  - String:          ' partitioning'
+  - String:          ' with factor '
+  - Factor:          '8'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: bnn.cpp, Line: 32, Column: 0 }
+Function:        _Z7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          img
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Cyclic
+  - String:          ' partitioning'
+  - String:          ' with factor '
+  - Factor:          '4'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: bnn.cpp, Line: 32, Column: 0 }
+Function:        _Z7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          W2
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Cyclic
+  - String:          ' partitioning'
+  - String:          ' with factor '
+  - Factor:          '2'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: bnn.cpp, Line: 32, Column: 0 }
+Function:        _Z7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          W3
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Cyclic
+  - String:          ' partitioning'
+  - String:          ' with factor '
+  - Factor:          '2'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: bnn.cpp, Line: 38, Column: 0 }
+Function:        _Z7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=cyclic factor=5 variable=bnn_top(int const*, unsigned int const*, int const*, unsigned int const*, int const*, unsigned int const*, int const*, unsigned int const*, int const*, int const*, int const*, int&, int&, int&)::ps'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  bnn_top
+  - String:          ' '
+  - VarLoc:          'bnn.cpp:38:0'
+  - String:          ' '
+  - PragmaSrcLoc:    'bnn.cpp:67:1'
+    DebugLoc:        { File: bnn.cpp, Line: 67, Column: 1 }
+  - VarName:         'bnn_top(int const*, unsigned int const*, int const*, unsigned int const*, int const*, unsigned int const*, int const*, unsigned int const*, int const*, int const*, int const*, int&, int&, int&)::ps'
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: bnn.cpp, Line: 67, Column: 1 }
+Function:        _Z7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            cyclic
+  - String:          ' factor='
+  - Factor:          '5'
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            'bnn_top(int const*, unsigned int const*, int const*, unsigned int const*, int const*, unsigned int const*, int const*, unsigned int const*, int const*, int const*, int const*, int&, int&, int&)::ps'
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: bnn.cpp, Line: 38, Column: 0 }
+Function:        _Z7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          _ZZ7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_E2ps
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Cyclic
+  - String:          ' partitioning'
+  - String:          ' with factor '
+  - Factor:          '5'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...

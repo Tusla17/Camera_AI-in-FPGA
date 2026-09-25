@@ -1,0 +1,15 @@
+<pragmas>
+<pragma file="bnn.cpp" line="154" pragmaType="pipeline" parentfunction="bnn_top" off="0" ii="1" rewind="0" style=""/>
+<pragma file="bnn.cpp" line="143" pragmaType="pipeline" parentfunction="bnn_top" off="0" ii="1" rewind="0" style=""/>
+<pragma file="bnn.cpp" line="129" pragmaType="pipeline" parentfunction="bnn_top" off="0" ii="1" rewind="0" style=""/>
+<pragma file="bnn.cpp" line="114" pragmaType="pipeline" parentfunction="bnn_top" off="0" ii="1" rewind="0" style=""/>
+<pragma file="bnn.cpp" line="98" pragmaType="pipeline" parentfunction="bnn_top" off="0" ii="1" rewind="0" style=""/>
+<pragma file="bnn.cpp" line="83" pragmaType="pipeline" parentfunction="bnn_top" off="0" ii="1" rewind="0" style=""/>
+<pragma file="bnn.cpp" line="52" pragmaType="pipeline" parentfunction="bnn_top" off="0" ii="1" rewind="0" style=""/>
+<pragma file="bnn.cpp" line="67" pragmaType="pipeline" parentfunction="bnn_top" off="0" ii="1" rewind="0" style=""/>
+<pragma file="bnn.cpp" line="42" pragmaType="array_partition" parentfunction="bnn_top" dim="1" factor="4" mode="cyclic" dynamic="0" variable="img"/>
+<pragma file="bnn.cpp" line="43" pragmaType="array_partition" parentfunction="bnn_top" dim="1" factor="8" mode="cyclic" dynamic="0" variable="_ZZ7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_E2l1"/>
+<pragma file="bnn.cpp" line="44" pragmaType="array_partition" parentfunction="bnn_top" dim="1" factor="8" mode="cyclic" dynamic="0" variable="_ZZ7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_E2l2"/>
+<pragma file="bnn.cpp" line="45" pragmaType="array_partition" parentfunction="bnn_top" dim="1" factor="2" mode="cyclic" dynamic="0" variable="W2"/>
+<pragma file="bnn.cpp" line="46" pragmaType="array_partition" parentfunction="bnn_top" dim="1" factor="2" mode="cyclic" dynamic="0" variable="W3"/>
+</pragmas>

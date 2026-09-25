@@ -1,0 +1,24 @@
+[
+  {
+    "csim": false,
+    "functionLabel": "",
+    "functionName": "hdr_top",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "hdr_top"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "D:/CodeWSL/Camera_AI/hls/run_hdr_inlined.tcl",
+    "sourceLine": 8,
+    "success": true
+  }
+]

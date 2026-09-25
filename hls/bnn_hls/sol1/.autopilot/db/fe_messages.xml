@@ -1,0 +1,104 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="D:/CodeWSL/Camera_AI/hls/run_export.tcl:9:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="bnn_top" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=bnn_top" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="bnn.cpp:42:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="bnn_top" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=img cyclic factor=4 dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="bnn.cpp:43:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="bnn_top" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=l1 cyclic factor=8 dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="bnn.cpp:44:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="bnn_top" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=l2 cyclic factor=8 dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="bnn.cpp:45:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="bnn_top" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=W2 cyclic factor=2 dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="bnn.cpp:46:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="bnn_top" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=W3 cyclic factor=2 dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="bnn.cpp:52:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="bnn_top" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="bnn.cpp:67:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="bnn_top" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="bnn.cpp:83:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="bnn_top" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="bnn.cpp:98:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="bnn_top" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="bnn.cpp:114:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="bnn_top" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="bnn.cpp:129:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="bnn_top" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="bnn.cpp:143:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="bnn_top" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="bnn.cpp:154:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="bnn_top" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="bnn.cpp:115:40" msg_body="Loop 'VITIS_LOOP_115_20' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_115_20"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="bnn.cpp:116:44" msg_body="Loop 'VITIS_LOOP_116_21' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_116_21"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="bnn.cpp:84:39" msg_body="Loop 'VITIS_LOOP_84_12' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_84_12"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="bnn.cpp:85:43" msg_body="Loop 'VITIS_LOOP_85_13' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_85_13"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="bnn.cpp:54:34" msg_body="Loop 'VITIS_LOOP_54_4' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_54_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="bnn.cpp:55:38" msg_body="Loop 'VITIS_LOOP_55_5' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_55_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="bnn.cpp:32:0" msg_body="Unrolling loop 'VITIS_LOOP_115_20' (bnn.cpp:115:40) in function 'bnn_top' completely with a factor of 3">
+        <args Factor="3" LoopLoc="bnn.cpp:115:40" LoopName="VITIS_LOOP_115_20"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="bnn.cpp:32:0" msg_body="Unrolling loop 'VITIS_LOOP_116_21' (bnn.cpp:116:44) in function 'bnn_top' completely with a factor of 3">
+        <args Factor="3" LoopLoc="bnn.cpp:116:44" LoopName="VITIS_LOOP_116_21"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="bnn.cpp:32:0" msg_body="Unrolling loop 'VITIS_LOOP_84_12' (bnn.cpp:84:39) in function 'bnn_top' completely with a factor of 3">
+        <args Factor="3" LoopLoc="bnn.cpp:84:39" LoopName="VITIS_LOOP_84_12"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="bnn.cpp:32:0" msg_body="Unrolling loop 'VITIS_LOOP_85_13' (bnn.cpp:85:43) in function 'bnn_top' completely with a factor of 3">
+        <args Factor="3" LoopLoc="bnn.cpp:85:43" LoopName="VITIS_LOOP_85_13"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="bnn.cpp:32:0" msg_body="Unrolling loop 'VITIS_LOOP_54_4' (bnn.cpp:54:34) in function 'bnn_top' completely with a factor of 3">
+        <args Factor="3" LoopLoc="bnn.cpp:54:34" LoopName="VITIS_LOOP_54_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="bnn.cpp:32:0" msg_body="Unrolling loop 'VITIS_LOOP_55_5' (bnn.cpp:55:38) in function 'bnn_top' completely with a factor of 3">
+        <args Factor="3" LoopLoc="bnn.cpp:55:38" LoopName="VITIS_LOOP_55_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="bnn.cpp:35:0" msg_body="Applying array_partition to '_ZZ7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_E2l2': Cyclic partitioning with factor 8 on dimension 1.">
+        <args Dim="1" Factor="8" Mode="Cyclic" UOName="_ZZ7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_E2l2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="bnn.cpp:34:0" msg_body="Applying array_partition to '_ZZ7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_E2l1': Cyclic partitioning with factor 8 on dimension 1.">
+        <args Dim="1" Factor="8" Mode="Cyclic" UOName="_ZZ7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_E2l1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="bnn.cpp:32:0" msg_body="Applying array_partition to 'img': Cyclic partitioning with factor 4 on dimension 1.">
+        <args Dim="1" Factor="4" Mode="Cyclic" UOName="img"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="bnn.cpp:32:0" msg_body="Applying array_partition to 'W2': Cyclic partitioning with factor 2 on dimension 1.">
+        <args Dim="1" Factor="2" Mode="Cyclic" UOName="W2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="bnn.cpp:32:0" msg_body="Applying array_partition to 'W3': Cyclic partitioning with factor 2 on dimension 1.">
+        <args Dim="1" Factor="2" Mode="Cyclic" UOName="W3"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="bnn.cpp:38:0" msg_body="array_partition dim=1 type=cyclic factor=5 variable=bnn_top(int const*, unsigned int const*, int const*, unsigned int const*, int const*, unsigned int const*, int const*, unsigned int const*, int const*, int const*, int const*, int&amp;, int&amp;, int&amp;)::ps 1 bnn_top bnn.cpp:38:0 bnn.cpp:67:1bnn_top(int const*, unsigned int const*, int const*, unsigned int const*, int const*, unsigned int const*, int const*, unsigned int const*, int const*, int const*, int const*, int&amp;, int&amp;, int&amp;)::ps">
+        <args PragmaFunction="bnn_top" PragmaIsAuto="1" PragmaOptions="dim=1 type=cyclic factor=5 variable=bnn_top(int const*, unsigned int const*, int const*, unsigned int const*, int const*, unsigned int const*, int const*, unsigned int const*, int const*, int const*, int const*, int&amp;, int&amp;, int&amp;)::ps" PragmaSrcLoc="bnn.cpp:67:1" PragmaSrcLoc-DebugLoc="File bnn.cpp Line 67 Column 1" PragmaType="array_partition" VarLoc="bnn.cpp:38:0" VarName="bnn_top(int const*, unsigned int const*, int const*, unsigned int const*, int const*, unsigned int const*, int const*, unsigned int const*, int const*, int const*, int const*, int&amp;, int&amp;, int&amp;)::ps"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="bnn.cpp:67:1" msg_body="Inferring pragma 'array_partition type=cyclic factor=5 dim=1' for array 'bnn_top(int const*, unsigned int const*, int const*, unsigned int const*, int const*, unsigned int const*, int const*, unsigned int const*, int const*, int const*, int const*, int&amp;, int&amp;, int&amp;)::ps' due to pipeline pragma">
+        <args Dim="1" Factor="5" Mode="cyclic" Name="bnn_top(int const*, unsigned int const*, int const*, unsigned int const*, int const*, unsigned int const*, int const*, unsigned int const*, int const*, int const*, int const*, int&amp;, int&amp;, int&amp;)::ps" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="bnn.cpp:38:0" msg_body="Applying array_partition to '_ZZ7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_E2ps': Cyclic partitioning with factor 5 on dimension 1.">
+        <args Dim="1" Factor="5" Mode="Cyclic" UOName="_ZZ7bnn_topPKiPKjS0_S2_S0_S2_S0_S2_S0_S0_S0_RiS3_S3_E2ps"/>
+    </msg>
+</xilinx:hls_fe_msgs>

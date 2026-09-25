@@ -1,0 +1,11 @@
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+Function:        apatb_constexpr_top_ir
+Args:            
+  - Callee:          'constexpr_top(int, unsigned int&)'
+    DebugLoc:        { File: test_constexpr.cpp, Line: 27, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          apatb_constexpr_top_ir
+  - String:          ' because it should never be inlined (cost=never)'
+...

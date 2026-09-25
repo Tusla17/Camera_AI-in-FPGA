@@ -1,0 +1,16 @@
+---
+MainSourceFile:  'D:/CodeWSL/Camera_AI/hls/mini_hls/sol1/.autopilot/db/mini.pp.0.cpp'
+Diagnostics:
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_5_1:  '
+      FilePath:        mini.cpp
+      FileOffset:      5
+      Replacements:
+        - FilePath:        'D:\CodeWSL\Camera_AI\hls\mini_hls\sol1\.autopilot\db\mini.pp.0.cpp'
+          Offset:          9655
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_5_1: '
+    Level:           Remark
+    BuildDirectory:  'D:\CodeWSL\Camera_AI\hls'
+...

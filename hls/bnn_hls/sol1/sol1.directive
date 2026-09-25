@@ -1,0 +1,9 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+    <sourceFile name="">
+        <directive functionName="bnn_top" label="" functionLabel="">
+            <pragma name="TOP">
+                <option name="name" value="bnn_top"/>
+            </pragma>
+        </directive>
+    </sourceFile>
+</AutoPilot:ProjectResources>

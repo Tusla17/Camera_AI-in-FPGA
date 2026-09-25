@@ -1,0 +1,28 @@
+---
+MainSourceFile:  'D:/CodeWSL/Camera_AI/hls/hdr_hls/sol1/.autopilot/db/test_hdr.pp.0.cpp'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         no input files
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'no such file or directory: ''D:\CodeWSL\Camera_AI\hls\hdr_hls\sol1\.autopilot\db\test_hdr.pp.0.cpp'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unable to handle compilation, expected exactly one compiler job in '''''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+...

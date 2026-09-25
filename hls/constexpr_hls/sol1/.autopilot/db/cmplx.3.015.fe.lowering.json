@@ -1,0 +1,20 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 2,
+    "file": "test_constexpr.cpp",
+    "fileloc": 27,
+    "instructions": 10,
+    "loads": {
+      "G": 1
+    },
+    "memory_accesses": 0,
+    "name": "constexpr_top",
+    "stores": {
+      "T": 1
+    },
+    "total_instructions": 10
+  }
+}

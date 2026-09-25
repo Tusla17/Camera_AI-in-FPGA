@@ -1,0 +1,50 @@
+# Vivado & Vitis Temporary Files & Logs
+.Xil/
+*.jou
+*.log
+*.str
+*.backup.*
+*.pb
+*.dcp
+*.wdb
+*.wcfg
+clockInfo.txt
+iter_*.txt
+
+# Simulation temporary work directories
+sim_work/
+sim_trng_work/
+sim_preproc_work/
+sim_bnn_proj/
+xsim.dir/
+hls/**/.autopilot/
+hls/**/.sim/
+hls/**/impl/
+
+# Build caches & IDE configuration
+.cache/
+.clangd/
+.compile_commands/
+compile_commands.json
+*.o
+*.obj
+
+# Vivado generated runs and caches
+bnn_bd/bnn_bd.cache/
+bnn_bd/bnn_bd.hw/
+bnn_bd/bnn_bd.ip_user_files/
+bnn_bd/bnn_bd.runs/
+bnn_bd/bnn_bd.sim/
+bnn_bd/bnn_bd.gen/
+
+# Python cache & Raw large datasets
+__pycache__/
+*.pyc
+*.pyo
+mrl_raw/
+data/
+*.zip
+*.tar.gz
+
+# Raw binary dumps
+fb_dump.bin
