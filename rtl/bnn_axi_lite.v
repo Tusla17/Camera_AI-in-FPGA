@@ -51,10 +51,15 @@ module bnn_axi_lite #(
     assign S_AXI_RRESP   = 2'b00;
     assign S_AXI_RVALID  = axi_rvalid;
 
-    // ---- Ciphertext write detection ----
+    // ---- Ciphertext write detection & backpressure ----
     reg aw_done, w_done;
     reg [C_S_AXI_DATA_WIDTH-1:0] axi_wdata_reg;
+    wire load_busy;  // from weight_loader
     wire load_ready; // from weight_loader
+
+    wire is_cwrite_addr   = ~S_AXI_AWADDR[12] && (S_AXI_AWADDR[6:2] == 5'h10);
+    wire is_cwrite_active = ~axi_awaddr[12] && (axi_awaddr[6:2] == 5'h10);
+    wire cwrite_stall     = (is_cwrite_addr || is_cwrite_active) && load_busy && ~load_ready;
 
     wire [C_S_AXI_DATA_WIDTH-1:0] wdata_eff = (w_done ? axi_wdata_reg : S_AXI_WDATA);
     wire wr_en = (axi_awready || aw_done) && (axi_wready || w_done) && ~axi_bvalid;
@@ -67,9 +72,11 @@ module bnn_axi_lite #(
             axi_awaddr  <= 0;
         end else begin
             if (~axi_awready && S_AXI_AWVALID && ~aw_done) begin
-                axi_awready <= 1'b1;
-                aw_done     <= 1'b1;
-                axi_awaddr  <= S_AXI_AWADDR;
+                if (~cwrite_stall) begin
+                    axi_awready <= 1'b1;
+                    aw_done     <= 1'b1;
+                    axi_awaddr  <= S_AXI_AWADDR;
+                end
             end else begin
                 axi_awready <= 1'b0;
             end
@@ -84,9 +91,11 @@ module bnn_axi_lite #(
             axi_wdata_reg <= 0;
         end else begin
             if (~axi_wready && S_AXI_WVALID && ~w_done) begin
-                axi_wready    <= 1'b1;
-                w_done        <= 1'b1;
-                axi_wdata_reg <= S_AXI_WDATA;
+                if (~cwrite_stall) begin
+                    axi_wready    <= 1'b1;
+                    w_done        <= 1'b1;
+                    axi_wdata_reg <= S_AXI_WDATA;
+                end
             end else begin
                 axi_wready <= 1'b0;
             end
@@ -202,7 +211,6 @@ module bnn_axi_lite #(
     wire        load_we;
     wire [12:0] load_addr;
     wire [31:0] load_data;
-    wire        load_busy;
     wire        load_done;
     wire        load_error;
 

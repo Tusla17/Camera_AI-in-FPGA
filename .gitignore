@@ -10,6 +10,7 @@
 *.wcfg
 clockInfo.txt
 iter_*.txt
+dfx_runtime.txt
 
 # Simulation temporary work directories
 sim_work/
